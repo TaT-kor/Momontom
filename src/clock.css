@@ -1,0 +1,18 @@
+
+.clockTitle {
+    display: inline;
+    color:white;
+}
+
+.clockSeconds {
+    color: white;
+}
+
+.clockDate {
+    display: block;
+    color: white;
+}
+
+.showing{
+    display: block;
+}

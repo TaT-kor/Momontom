@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* animation: fadeIn 0.5s linear; */ /* 검색해보고 넣기 */
+}
+
+.name {
+    text-align: center;
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+
+.placeholderWhite::placeholder {
+    color: white;
+}
+
+.greetings {
+    display: none;
+    text-decoration: underline white;
+}
+
+table{
+    width: 100%;
+    border-top: 1px solid white;
+    margin-top: 20px;
+}
+
+.form,
+.greetings {
+    display: none;
+    text-align : center;
+    margin-top: 10%;
+}
+
+.clock {
+    text-align : center;
+}
+
+.weather{
+    color: white;
+}
+
+#daytable {
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    width: 40%;
+}
+
+td{
+    padding: 10px;
+}
+
+.js-advice{
+    font-family: 'Akaya Telivigala', cursive;
+    font-style: oblique;
+    display: block;
+    margin-top: 100px;
+    color: whitesmoke;
+    text-align: center;
+}

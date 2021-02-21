@@ -1,0 +1,25 @@
+.toDoForm {
+    text-align : center;
+}
+
+.todo{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.js-todo{
+    background-color: white;
+    opacity: 70%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+.todo:focus{
+    outline: none;
+}
+
+span {
+    margin-right: 10px;
+}

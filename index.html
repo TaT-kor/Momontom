@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monmontom</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/clock.css">
+    <link rel="stylesheet" href="src/searchbar.css">
+    <link rel="stylesheet" href="src/todo.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+    <form class="js-form form">
+        <input type="text" class="name" placeholder="What's your name?">
+    </form>
+    <h1 class="js-greetings greetings"></h1>
+
+    <form class="searchContainer" action="https://www.google.com/search" method="GET">
+        <div class="searchbar">
+            <input name="q" type="search" class="search" placeholder="Google">
+            <i class="fa fa-search"></i>
+        </div>
+    </form>
+
+    <br>
+
+    <table>
+        <tr>
+            <td id="daytable">
+                <div class="js-clock clock">
+                    <h1 class="js-clock clockTitle"></h1>
+                    <span class="js-clock clockSeconds"></span>
+                    <h3 class="js-clock clockDate"></h3>
+                    <br>
+                    <h3 class="js-weather weather">weather</h3>
+                </div>
+            </td>
+            <td>
+                <div class="js-todo">
+                    <form class="js-toDoForm toDoForm">
+                        <input type="text" class="todo" placeholder="Write a to do" />
+                    </form>
+                    <ul class="js-toDoList">
+                    </ul>
+                    <br>
+                    <ul class="js-finList">
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="js-advice">
+        <h1 class="advice"></h1>
+    </div>
+
+    <script src="src/bg.js"></script>
+    <script src="src/greetings.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/advice.js"></script>
+</body>
+</html>
